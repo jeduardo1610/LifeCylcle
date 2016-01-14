@@ -31,7 +31,7 @@ public class SecondActivity extends AppCompatActivity {
 
 
     public void GoBack(View view) {
-
+//DEstroying Activities
         Intent intent = new Intent(getApplicationContext(), MainActivity .class);
         startActivity(intent);
         this.onDestroy();
